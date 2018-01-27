@@ -25,12 +25,17 @@
 <!-- SCRIPTS -->
         <script>
             function initMap() {
-                var options = {
+                var options = {  //Creates map options to add to the default map.
                     zoom:8,
                     center:{lat:29.9511,lng:-90.0715}
                 }
 
-                var map = new google.maps.Map(document.getElementById('map'), options);
+                var map = new google.maps.Map(document.getElementById('map'), options); //Creates the map and includes the options.
+                
+                var marker = new google.maps.Marker({ //Add marker to pinpoint location on the map.
+                    position:{lat:29.9841,lng:-90.1529},
+                    map:map
+                });
             }
         </script>
 
