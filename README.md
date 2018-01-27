@@ -2,4 +2,4 @@
 
 #### Project to learn JavaScript.
 
-#### Inspired by tutorial from bradtraversy (traverymedia.com).
+#### Inspired by tutorial from bradtraversy (traversymedia.com).
